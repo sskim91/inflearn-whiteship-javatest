@@ -9,15 +9,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class AppTest {
 
     @Test
+    @DisplayName("스터디 만들기 \ud83D\uDE31")
     void create() {
         App app = new App();
         System.out.println("create Test");
         assertThat(app).isNotNull();
-    }
-
-    @Test
-    void create1() {
-        System.out.println("create Test1");
     }
 
     @BeforeAll
